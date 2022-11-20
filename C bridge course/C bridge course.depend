@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1663398375 source:e:\manipal_sois\c bridge course\ucasetolcase.c
+
+1663438440 source:e:\manipal_sois\c bridge course\main.c
+	<stdio.h>
+	<math.h>
+
+1663439859 source:e:\manipal_sois\c bridge course\areaofcircle.c
+	"areaofcircle.h"
+
+1663398742 e:\manipal_sois\c bridge course\areaofcircle.h
+	<stdio.h>
+	<math.h>
+
+1663440154 source:e:\manipal_sois\c bridge course\tobesearched.c
+	"tobesearched.h"
+
+1663440095 e:\manipal_sois\c bridge course\tobesearched.h
+	<stdio.h>
+
+1663477449 source:e:\manipal_sois\c bridge course\palindromecheck.c
+	"palindromecheck.h"
+
+1663477754 source:e:\manipal_sois\c bridge course\palindromecheckfunc.c
+	"palindromecheck.h"
+
+1663442616 source:e:\manipal_sois\c bridge course\example1.c
+	<stdio.h>
+
+1663442634 source:e:\manipal_sois\c bridge course\example1func.c
+
+1663477670 source:e:\manipal_sois\c bridge course\palindromecheck.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1663477670 e:\manipal_sois\c bridge course\palindromecheck.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1663479910 source:e:\manipal_sois\c bridge course\palint.c
+	"palint.h"
+
+1663479729 e:\manipal_sois\c bridge course\palint.h
+	<stdio.h>
+	<stdlib.h>
+
+1663479946 source:e:\manipal_sois\c bridge course\palintfunc.c
+
+1663481618 source:e:\manipal_sois\c bridge course\prime.c
+	"prime.h"
+
+1663480318 e:\manipal_sois\c bridge course\prime.h
+	<stdio.h>
+	<stdlib.h>
+
+1663482022 source:e:\manipal_sois\c bridge course\primefunc.c
+
