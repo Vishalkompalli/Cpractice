@@ -14,5 +14,5 @@ int main()
 {
     struct student s1 = {"Vishal", 1};
     printf("%s\n",s1.name);
-    printf("%d",s1.rollno);
+    printf("%d\n",s1.rollno);
 }
