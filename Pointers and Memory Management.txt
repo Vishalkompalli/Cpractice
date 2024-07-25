@@ -1,0 +1,15 @@
+Pointer Arithmetic:
+
+1. Write a function to find the middle element of an array using pointers without using array indexing.
+2. Explain the difference between int *p and int (*p)[5].
+3. How do you dynamically allocate a 2D array in C?
+
+Memory Leaks:
+
+1. What is a memory leak? How can you prevent them?
+2. Write a function to detect memory leaks in a C program.
+
+Volatile Keyword:
+
+1. Explain the volatile keyword with examples.
+2. When is it necessary to use the volatile keyword?
