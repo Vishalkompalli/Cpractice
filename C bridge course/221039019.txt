@@ -1,0 +1,184 @@
+Day1
+1.
+
+#include <ctype.h>
+#include <stdio.h>
+#include <ctype.h>
+
+int main()
+{
+char ch;
+printf("Enter a character ");
+scanf("%c",&ch);
+if(islower(ch))
+{
+    printf("%c in uppercase is represented as %c", ch, toupper(ch));
+}
+else
+{   printf("Error");
+}
+ return 0;
+}
+
+2.
+
+#include <stdio.h>
+#include <math.h>
+#define pi 3.14
+
+int main()
+{float a,r;
+printf("Enter the radius of the circle");
+scanf("%f",&r);
+a=pi*r*r;
+printf("Area of the circle with radius %f is %f",r,a);
+}
+
+3.
+#include <stdio.h>
+#include <math.h>
+
+
+int main()
+{float p,t,r,si;
+printf("Enter the principle amount");
+scanf("%f",&p);
+printf("Enter the time");
+scanf("%f",&t);
+printf("Enter the rate of interest");
+scanf("%f",&r);
+si=(p*t*r)/100;
+printf("Simple interest is %f",si);
+}
+
+4.
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{float c,f;
+printf("Enter the temperature in farenheit );
+scanf("%f",&f);
+c=(f-32)/1.8;
+printf("%f degree farenheit is equal to %f degree celsius",f,c);
+}
+
+int main()
+{float c,f;
+printf("Enter the temperature in celsius");
+scanf("%f",&c);
+f=1.8*c+32;
+printf("%f degree farenheit is equal to %f degree celsius",f,c);
+}
+
+5.
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{int n;
+    printf("Enter a number");
+    scanf("%d",&n);
+    if(n%2==0)
+    printf("Even");
+    else
+    printf("odd");
+}
+
+6. 
+
+#include <stdio.h>
+int main() 
+{   int yr;
+   printf("Enter a year: ");
+   scanf("%d", &yr);
+
+   // leap year if perfectly divisible by 400
+   if (yr % 400 == 0) {
+      printf("%d is a leap year", yr);
+   }
+   // not a leap year if divisible by 100
+   // but not divisible by 400
+   else if (yr % 100 == 0) {
+      printf("%d is not a leap year", yr);
+   }
+   // leap year if not divisible by 100
+   // but divisible by 4
+   else if (yr % 4 == 0) {
+      printf("%d is a leap year.", yr);
+   }
+   // all other years are not leap years
+   else {
+      printf("%d is not a leap year.", yr);
+   }
+
+   return 0;
+}
+
+Day2
+1.
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{int n,a,sum=0;
+    printf("Enter a number");
+    scanf("%d",&n);
+    while(n>0)
+    {
+    a=n%10;
+    sum=sum+a;
+    n=n/10;
+    }
+    printf("Sum of digits is %d",sum);
+    return 0;
+}
+
+
+2.
+
+#include <stdio.h>
+
+
+int main()
+{int n,rev;
+    printf("Enter a number");
+    scanf("%d",&n);
+{
+    rev=0;
+    while(n!=0)
+    {
+        rev=rev*10+n%10;
+        n=n/10;
+    }
+    printf("The reversed number is %d",rev);
+}
+    
+}
+
+3.
+
+#include <stdio.h>
+
+
+int main()
+{int num,search,count=0,rem;
+ printf("Enter a number");
+ scanf("%d",&num);
+ printf("Enter a number to be searched");
+ scanf("%d",&search);
+ while(num>0)
+ {rem=num%10;
+ if (rem==search)
+  {
+      count++;
+  }
+  num=num/10;
+     
+ }
+ printf("%d",count);    
+    
+}
+
