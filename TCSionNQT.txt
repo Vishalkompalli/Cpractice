@@ -1,0 +1,9 @@
+1. Cash available in the ATM - K, number of people waiting in line outside the ATM - N. Cash required by each person - a[] to be entered at a time. If the withdrawal is successful, output 1, else 0
+
+2. N - money available
+R1 - Cost of one litre milk in plastic bottle
+R2 - Cost of one litre milk in Glass bottle
+R3 - Cost of empty bottle
+
+only glass bottle can be returned for Rs. R3.
+Find the total volume of milk at the end.
