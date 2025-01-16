@@ -38,6 +38,11 @@ int main()
     printf("Enter %d elements: ",n);
     arr = (int*)malloc(sizeof(int)*n);
     {
+        if(arr == NULL)
+        {
+            printf("Memory Allocation Failed!!!");
+            return 1;
+        }
         for(int i=0;i<n;i++)
         {
             scanf("%d",&arr[i]);
